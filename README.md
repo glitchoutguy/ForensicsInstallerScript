@@ -6,7 +6,7 @@ Only tested on Ubuntu and Kali, may not work for non-debian distros.
 curl -fsSL https://raw.githubusercontent.com/glitchoutguy/ForensicsInstallerScript/refs/heads/main/forensicsinstaller.sh | sh
 ```
 
-# Ubuntu DFIR VM Guide
+# Forensics Script Guide
 
 ## Directory Structure
 
