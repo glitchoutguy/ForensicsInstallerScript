@@ -1,0 +1,9 @@
+1. POSTFIX
+	a. Local Only
+	b Default, Yes
+
+2. Dumpcap
+	a. Yes, allow non-superusers to run, if you want wireshark gui, install it.
+
+3. pipx
+	a. logout and log back in for PATH changes or run 'source ~/.bashrc'
