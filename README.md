@@ -7,7 +7,7 @@ Only tested on Ubuntu and Kali, may not work for non-debian distros.
 All tools are organized under:
 
 
-/opt/dfir
+`/opt/dfir`
 
 
 ### `/opt/dfir/git`
@@ -24,7 +24,7 @@ All tools are organized under:
 
 Example:
 
-/opt/dfir/windows/JLECmd.exe
+`/opt/dfir/windows/JLECmd.exe`
 
 
 Run from anywhere:
