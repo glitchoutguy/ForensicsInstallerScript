@@ -2,7 +2,9 @@ Only tested on Ubuntu and Kali, may not work for non-debian distros.
 
 # Quickstart
 
-```curl -fsSL https://raw.githubusercontent.com/glitchoutguy/ForensicsInstallerScript/refs/heads/main/forensicsinstaller.sh | sh```
+```
+curl -fsSL https://raw.githubusercontent.com/glitchoutguy/ForensicsInstallerScript/refs/heads/main/forensicsinstaller.sh | sh
+```
 
 # Ubuntu DFIR VM Guide
 
@@ -45,12 +47,16 @@ Run from anywhere:
 
 ### Update System Packages
 
-`sudo apt update && sudo apt upgrade -y`
+```
+sudo apt update && sudo apt upgrade -y
+```
 
 
 ### Update Python Tools (pipx)
 
-`pipx upgrade-all`
+```
+pipx upgrade-all
+```
 
 
 ### Update Eric Zimmerman Tools
@@ -66,7 +72,9 @@ If new `.exe` files are added, re-run the wrapper script.
 
 ### Add a Python Tool
 
-`pipx install git+<github link>`
+```
+pipx install git+<github link>
+```
 
 
 ### Add a Windows Executable
@@ -86,12 +94,3 @@ If new `.exe` files are added, re-run the wrapper script.
 | Native Linux     | apt        | Direct     |
 | Python CLI       | pipx       | Direct     |
 | Windows (.exe)   | Wine + wrapper | Lowercase name |
-
----
-
-## Best Practices
-
-- Use `pipx` for Python tools
-- Keep Windows tools only in `/opt/dfir/windows`
-- Upgrade regularly
-- Do not modify system permissions unnecessarily
