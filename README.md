@@ -29,7 +29,7 @@ Example:
 
 Run from anywhere:
 
-jlecmd
+`jlecmd`
 
 
 ### `/opt/dfir/custom`
@@ -41,17 +41,17 @@ jlecmd
 
 ### Update System Packages
 
-sudo apt update && sudo apt upgrade -y
+`sudo apt update && sudo apt upgrade -y`
 
 
 ### Update Python Tools (pipx)
 
-pipx upgrade-all
+`pipx upgrade-all`
 
 
 ### Update Eric Zimmerman Tools
 
-pwsh Get-ZimmermanTools.ps1
+`pwsh Get-ZimmermanTools.ps1` located in `/opt/dfir/windows`
 
 
 If new `.exe` files are added, re-run the wrapper script.
@@ -62,13 +62,13 @@ If new `.exe` files are added, re-run the wrapper script.
 
 ### Add a Python Tool
 
-pipx install git+<github link>
+`pipx install git+<github link>`
 
 
 ### Add a Windows Executable
 1. Place the `.exe` file in:
 
-/opt/dfir/windows
+`/opt/dfir/windows`
 
 2. Re-run the wrapper script.
 3. Invoke it globally using its lowercase name.
